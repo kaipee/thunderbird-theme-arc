@@ -20,7 +20,7 @@ This theme contains some elements or inspiration from the following:
  * [Arc Theme](https://github.com/horst3180/arc-theme) by [horst3180](https://github.com/horst3180).
  * [Arc Darker Theme](https://addons.mozilla.org/en-US/firefox/addon/arc-darker-theme-we/) for Firefox by [Afnan Khan](https://addons.mozilla.org/en-US/firefox/user/5641275/).
 
-#### Dev Notes
+## Dev Notes
 
 ```sh
 zip -r *.xpi manifest.json
