@@ -1,5 +1,5 @@
 # Arc Inspired theme for Thunderbird
-A theme for Thunderbird 78, inspired by the excellent [Arc Theme](https://github.com/horst3180/Arc-theme) by horst3180.
+A theme for Thunderbird 60+, inspired by the excellent [Arc Theme](https://github.com/horst3180/Arc-theme) by horst3180.
 
 ## Installation
 
