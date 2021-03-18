@@ -19,6 +19,7 @@ This theme contains some elements or inspiration from the following:
  * [Arc Firefox Theme](https://github.com/horst3180/arc-firefox-theme) by [horst3180](https://github.com/horst3180).
  * [Arc Theme](https://github.com/horst3180/arc-theme) by [horst3180](https://github.com/horst3180).
  * [Arc Darker Theme](https://addons.mozilla.org/en-US/firefox/addon/arc-darker-theme-we/) for Firefox by [Afnan Khan](https://addons.mozilla.org/en-US/firefox/user/5641275/).
+ * [Arc Thunderbird Integration](https://github.com/JD342/arc-thunderbird-integration) by [JD342](https://github.com/JD342)
 
 ## Dev Notes
 
