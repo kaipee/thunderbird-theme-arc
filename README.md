@@ -5,9 +5,12 @@ A theme for Thunderbird 60+, inspired by the excellent [Arc Theme](https://githu
 
 ### Mozilla Add-ons (recommended)
 
-https://addons.thunderbird.net/en-US/thunderbird/addon/arc-inspired/
+For the easiest way to install and keep updated, install the add-on from within Thunderbird itself using the official Mozilla Add-on store https://addons.thunderbird.net/en-US/thunderbird/addon/arc-inspired/ .
 
 ### Manual
+
+1. Download the [add-on file](https://github.com/kaipee/thunderbird-theme-arc/releases).
+1. Install as per the [official instructions](https://support.mozilla.org/en-US/kb/installing-addon-thunderbird#w_a-slightly-less-ideal-case-install-from-a-downloaded-xpi-file).
 
 ## Theme guidelines for Thunderbird 60+
 https://developer.thunderbird.net/add-ons/web-extension-themes
