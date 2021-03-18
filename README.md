@@ -1,11 +1,11 @@
-# thunderbird-theme-arc
-An Arc inspired theme for Thunderbird.
+# Arc Inspired theme for Thunderbird
+A theme for Thunderbird, inspired by the excellent [https://github.com/horst3180/Arc-theme](Arc Theme) by horst3180.
 
 ## Installation
 
 ### Mozilla Add-ons (recommended)
 
-
+https://addons.thunderbird.net/en-US/thunderbird/addon/arc-inspired/
 
 ### Manual
 
