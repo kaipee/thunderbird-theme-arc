@@ -12,11 +12,6 @@ For the easiest way to install and keep updated, install the add-on from within 
 1. Download the [add-on file](https://github.com/kaipee/thunderbird-theme-arc/releases).
 1. Install as per the [official instructions](https://support.mozilla.org/en-US/kb/installing-addon-thunderbird#w_a-slightly-less-ideal-case-install-from-a-downloaded-xpi-file).
 
-## Theme guidelines for Thunderbird 60+
-https://developer.thunderbird.net/add-ons/web-extension-themes
-
-https://webextension-api.thunderbird.net/en/latest/theme.html#theme-themetype
-
 ## Credits
 
 This theme contains some elements or inspiration from the following:
@@ -28,6 +23,10 @@ This theme contains some elements or inspiration from the following:
 #### Dev Notes
 
 ```sh
-unzip thunderbird-theme-arc.xpi && rm thunderbird-theme-arc.xpi
-zip -r thunderbird-theme-arc.xpi manifest.json
+zip -r *.xpi manifest.json
 ```
+
+#### Theme guidelines for Thunderbird 60+
+
+ * https://developer.thunderbird.net/add-ons/web-extension-themes
+ * https://webextension-api.thunderbird.net/en/latest/theme.html#theme-themetype
