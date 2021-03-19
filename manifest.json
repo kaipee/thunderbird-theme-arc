@@ -1,7 +1,7 @@
 {
   "manifest_version":2,
   "name":"Arc Inspired",
-  "version":"0.1.0",
+  "version":"0.2.0",
   "description":"An Arc inspired theme for Thunderbird",
   "applications":{
     "gecko":{
@@ -11,10 +11,10 @@
   },
   "theme":{
     "colors":{
-      "button_background_active": "rgba(0, 0, 0, 0.085)",
-      "button_background_hover": "#5FA1E6",
+      "button_background_active": "#5294E2",
+      "button_background_hover": "#5294E2",
 
-      "frame": "#2F343F",
+      "frame": "#383c4a",
       "frame_inactive": "#313742",
 
       "icons": "",
@@ -26,9 +26,10 @@
       "popup_highlight_text": "#FFFFFF",
       "popup_text": "#5C616C",
 
-      "sidebar": "#313742",
-      "sidebar_border": "#2F343F",
+      "sidebar": "#4b5162",
+      "sidebar_border": "#383c4a",
       "sidebar_highlight": "#5294E2",
+      "sidebar_highlight_border": "#5294E2",
       "sidebar_highlight_text": "#FFFFFF",
       "sidebar_text": "#FFFFFF",
 
@@ -37,9 +38,9 @@
       "tab_line": "#5294E2",
       "tab_loading": "#5294E2",
       "tab_selected": "",
-      "tab_text": "#FFFFFF",
+      "tab_text": "#5C616C",
       
-      "toolbar": "#475266",
+      "toolbar": "#E1E4E7",
       "toolbar_bottom_separator": "#DCDFE3",
       "toolbar_field": "#FFFFFF",
       "toolbar_field_border": "#CFD6E6",
@@ -49,9 +50,9 @@
       "toolbar_field_highlight_text": "#FFFFFF",
       "toolbar_field_text": "#5C616C",
       "toolbar_field_text_focus": "",
-      "toolbar_text": "#FFFFFF",
+      "toolbar_text": "#5C616C",
       "toolbar_top_separator": "#272A34",
-      "toolbar_vertical_separator": "#DCDFE3"
+      "toolbar_vertical_separator": "#5C616C"
     }
   }
 }
