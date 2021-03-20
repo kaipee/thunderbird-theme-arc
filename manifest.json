@@ -3,10 +3,18 @@
   "name":"Arc Inspired",
   "version":"0.2.1",
   "description":"An Arc inspired theme for Thunderbird",
+  "author":"kaipee",
+  "homepage_url":"https://github.com/kaipee/thunderbird-theme-arc",
   "applications":{
     "gecko":{
       "id":"thunderbird@kaipee.co.uk",
       "strict_min_version":"78.0"
+    }
+  },
+  "theme_experiment":{
+    "stylesheet": "style.css",
+    "colors":{
+      "kpexp_headers_text": "--kpexp-headers-color"
     }
   },
   "theme":{
@@ -52,7 +60,9 @@
       "toolbar_field_text_focus": "",
       "toolbar_text": "#5C616C",
       "toolbar_top_separator": "#272A34",
-      "toolbar_vertical_separator": "#5C616C"
+      "toolbar_vertical_separator": "#5C616C",
+
+      "kpexp_headers_text": "rgb(92, 97, 108)"
     }
   }
 }
