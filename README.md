@@ -2,6 +2,7 @@
 A theme for Thunderbird 78+, inspired by the excellent [Arc Theme](https://github.com/horst3180/Arc-theme) by horst3180.
 
 **Mail**
+
 ![Mail window](img/mail.png)
 
 **Calendar**
