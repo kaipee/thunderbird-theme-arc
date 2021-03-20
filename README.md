@@ -4,6 +4,10 @@ A theme for Thunderbird 60+, inspired by the excellent [Arc Theme](https://githu
 **Mail**
 ![Mail window](img/mail.png)
 
+**Calendar**
+
+![Calendar window](img/calendar.png)
+
 ## Installation
 
 ### Mozilla Add-ons (recommended)
