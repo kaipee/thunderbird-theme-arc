@@ -1,6 +1,9 @@
 # Arc Inspired theme for Thunderbird
 A theme for Thunderbird 60+, inspired by the excellent [Arc Theme](https://github.com/horst3180/Arc-theme) by horst3180.
 
+**Mail**
+![Mail window](img/mail.png)
+
 ## Installation
 
 ### Mozilla Add-ons (recommended)
