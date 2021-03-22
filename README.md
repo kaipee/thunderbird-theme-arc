@@ -13,7 +13,7 @@ A theme for Thunderbird 78+, inspired by the excellent [Arc Theme](https://githu
 
 ### Mozilla Add-ons (recommended)
 
-For the easiest way to install and keep updated, install the add-on from within Thunderbird itself using the official Mozilla Add-on store https://addons.thunderbird.net/en-US/thunderbird/addon/arc-inspired/ .
+For the easiest way to install and keep updated, install the add-on from within Thunderbird itself using the official Mozilla Add-on store https://addons.thunderbird.net/en-US/thunderbird/addon/arc-inspired-2/ .
 
 ### Manual
 
