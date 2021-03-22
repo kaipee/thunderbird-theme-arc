@@ -1,3 +1,7 @@
 #expandedHeadersBox {
     color: var(--kpexp-headers-color);
 }
+#MsgHeadersToolbar[brighttext] .address-pill:not(.editing) {
+  background-color: rgba(0,0,0,0.1);
+  color: #18191a;
+}

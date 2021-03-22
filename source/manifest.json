@@ -34,12 +34,12 @@
       "popup_highlight_text": "#FFFFFF",
       "popup_text": "#5C616C",
 
-      "sidebar": "#4b5162",
-      "sidebar_border": "#383c4a",
+      "sidebar": "#EBEBEB",
+      "sidebar_border": "#CCCCCC",
       "sidebar_highlight": "#5294E2",
       "sidebar_highlight_border": "#5294E2",
       "sidebar_highlight_text": "#FFFFFF",
-      "sidebar_text": "#FFFFFF",
+      "sidebar_text": "#000000",
 
       "tab_background_separator": "rgba(255, 255, 255, 0.5)",
       "tab_background_text": "#AFB8C6",
@@ -48,7 +48,7 @@
       "tab_selected": "",
       "tab_text": "#5C616C",
       
-      "toolbar": "#E1E4E7",
+      "toolbar": "#383C4A",
       "toolbar_bottom_separator": "#DCDFE3",
       "toolbar_field": "#FFFFFF",
       "toolbar_field_border": "#CFD6E6",
@@ -58,11 +58,11 @@
       "toolbar_field_highlight_text": "#FFFFFF",
       "toolbar_field_text": "#5C616C",
       "toolbar_field_text_focus": "",
-      "toolbar_text": "#5C616C",
+      "toolbar_text": "#F5F5F5",
       "toolbar_top_separator": "#272A34",
       "toolbar_vertical_separator": "#5C616C",
 
-      "kpexp_headers_text": "rgb(92, 97, 108)"
+      "kpexp_headers_text": "#FFFFFF"
     }
   }
 }
