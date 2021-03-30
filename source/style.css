@@ -1,7 +1,24 @@
-#expandedHeadersBox {
-    color: var(--kpexp-headers-color);
+:root[lwt-tree] #msgHeaderView, :root[lwt-tree] #attachmentView, :root[lwt-tree] #attachmentList {
+	background-color: #EBEBEB !important;
+  color: rgb(92, 97, 108) !important;
+}
+toolbarbutton:-moz-lwtheme:not(:hover):not([checked="true"]):not([open="true"]):not([disabled="true"]) {
+	transition-duration: unset;
+}
+.toolbarbutton-1.msgHeaderView-button:not([type="menu-button"]), .toolbarbutton-1.msgHeaderView-button > .toolbarbutton-menubutton-button, .toolbarbutton-1.msgHeaderView-button > .toolbarbutton-menubutton-dropmarker {
+	border-color: rgba(0, 0, 0, .25);
+  transition-duration: unset;
+}
+.toolbarbutton-1.msgHeaderView-button:not([disabled="true"]):-moz-any(:hover, [open]) > .toolbarbutton-menubutton-button, .toolbarbutton-1.msgHeaderView-button:not([disabled="true"]):-moz-any(:hover, [open]) > .toolbarbutton-menubutton-dropmarker, .toolbarbutton-1.msgHeaderView-button:not([type="menu-button"]):not([disabled="true"]):not([checked="true"]):not([open]):not(:active):hover, .toolbarbutton-1.msgHeaderView-button:not([buttonover]):not([open]):not(:active):hover > .toolbarbutton-menubutton-dropmarker:not([disabled]) {
+	background: #5294E2;
+	border-color: #5294E2;
+  color: #FFFFFF !important;
+  transition-duration: unset;
 }
 #MsgHeadersToolbar[brighttext] .address-pill:not(.editing) {
   background-color: rgba(0,0,0,0.1);
   color: #18191a;
+}
+treechildren{
+  background-color: #F5F5F5 !important;
 }
