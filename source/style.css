@@ -22,3 +22,28 @@ toolbarbutton:-moz-lwtheme:not(:hover):not([checked="true"]):not([open="true"]):
 treechildren{
   background-color: #F5F5F5 !important;
 }
+
+/*---- Compose Window ----*/
+:root[lwt-tree] #headers-box{
+  background-color: #EBEBEB !important;
+  color: #18191a !important;
+}
+#FormatToolbar menulist:not([disabled="true"]):not([open="true"]):hover {
+	background: var(--toolbarbutton-hover-background);
+	color: #FFFFFF;
+}
+.toolbar[brighttext], .contentTabToolbox[brighttext], #header-view-toolbar[brighttext], #ab-toolbox > toolbar[brighttext], .mail-toolbox > toolbar[brighttext], #event-toolbox > toolbar[brighttext], #compose-toolbox > toolbar[brighttext], #headers-box > toolbar[brighttext], #FormatToolbox > toolbar[brighttext], :root[lwt-tree-brighttext] .otr-container, :root[lwt-tree-brighttext] .crypto-button, :root[lwt-tree-brighttext] .calendar-list-create, :root[lwt-tree-brighttext] #searchTerms {
+	--toolbarbutton-hover-background: var(--lwt-toolbarbutton-hover-background, rgba(255, 255, 255, .25));
+	--toolbarbutton-hover-bordercolor: rgba(0, 0, 0, .25);
+	--toolbarbutton-header-bordercolor: rgba(0, 0, 0, .25);
+	--toolbarbutton-active-background: var(--lwt-toolbarbutton-active-background, rgba(255, 255, 255, .4));
+	--toolbarbutton-active-bordercolor: rgba(0, 0, 0, .25);
+	--toolbarbutton-active-boxshadow: 0 0 0 1px var(--lwt-toolbarbutton-active-background, rgba(255, 255, 255, .4)) inset;
+	--toolbarbutton-checkedhover-backgroundcolor: var(--lwt-toolbarbutton-hover-background, rgba(255, 255, 255, .5));
+}
+toolbarbutton.formatting-button:not([disabled="true"]):hover {
+	border-color: #5294E2;
+}
+toolbarbutton:hover {
+	color: #FFFFFF;
+}
