@@ -1,7 +1,7 @@
 {
   "manifest_version":2,
   "name":"Arc Inspired",
-  "version":"0.4.3",
+  "version":"0.4.6",
   "description":"An Arc inspired theme for Thunderbird",
   "author":"kaipee",
   "homepage_url":"https://github.com/kaipee/thunderbird-theme-arc",
@@ -12,7 +12,7 @@
     }
   },
   "theme_experiment":{
-    "stylesheet": "style.css"
+    "stylesheet": "custom_style.css"
   },
   "theme":{
     "colors":{
