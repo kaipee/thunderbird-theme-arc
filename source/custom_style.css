@@ -130,3 +130,49 @@ thumb[orient="vertical"]:hover, thumb[orient="vertical"]:active {
 #threadPaneBox treechildren {
 	background: #F5F5F5 !important;
 }
+
+/*---- Calendar ----*/
+.minimonth-day {
+	background: white;
+}
+.calendar-month-day-box-current-month {
+	background-color: white;
+}
+.minimonth-nav-btns:active, .minimonth-nav-btns:focus, .minimonth-nav-btns:hover {
+	background-color: #5294E2;
+}
+.findbar-button:not(:-moz-any([checked="true"], [disabled="true"])):hover, .toolbarbutton-1:not([disabled="true"]):-moz-any(:hover, [open="true"]) > .toolbarbutton-menubutton-button, .toolbarbutton-1:not([disabled="true"]):hover > .toolbarbutton-menubutton-dropmarker, .toolbarbutton-1:not([type="menu-button"]):not([disabled="true"]):not([checked="true"]):not([open="true"]):not(:active):hover {
+	background: #5294E2;
+	border-color: var(--toolbarbutton-hover-bordercolor);
+	box-shadow: var(--toolbarbutton-hover-boxshadow);
+	fill: #FFFFFF;
+}
+.calendar-month-day-box-current-month[selected="true"] {
+	background-color: rgba(82, 148, 226, 0.25);
+}
+.calendar-month-day-box-date-label[selected="true"] {
+	color: var(--viewMonthDayBoxSelectedColor);
+	background-color: rgba(82, 148, 226, 0.25);
+}
+.minimonth-day[selected="true"] {
+  background-color: rgba(82, 148, 226, 0.25);
+  color: var(--mmDaySelectedColor);
+  border: 1px solid var(--mmDaySelectedBorderColor);
+}
+.minimonth-day[selected="true"][today="true"] {
+  background-color: rgba(82, 148, 226, 0.25);
+  border: 1px solid var(--mmDaySelectedTodayBorderColor);
+}
+.calendar-month-day-box-day-off .calendar-month-day-box-date-label {
+    background-color: rgba(82, 148, 226, 0.25);
+}
+calendar-event-column {
+    background-color: white;
+}
+calendar-header-container[selected="true"],
+.calendar-event-column-linebox[selected="true"] {
+    background-color: rgba(82, 148, 226, 0.25);
+}
+.calendar-event-column-linebox[off-time="true"][selected="true"] {
+    background-color: rgba(82, 148, 226, 0.75);
+}
