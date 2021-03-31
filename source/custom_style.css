@@ -88,10 +88,16 @@ toolbarbutton.formatting-button:not([disabled="true"]):hover {
 	border-color: #5294E2;
 }
 .formatting-button:active {
-	color: white;
+	color: #FFFFFF;
 }
 toolbarbutton:hover {
 	color: #FFFFFF;
+}
+.findbar-button:not(:-moz-any([checked="true"], [disabled="true"])):hover, .toolbarbutton-1:not([disabled="true"]):-moz-any(:hover, [open="true"]) > .toolbarbutton-menubutton-button, .toolbarbutton-1:not([disabled="true"]):hover > .toolbarbutton-menubutton-dropmarker, .toolbarbutton-1:not([type="menu-button"]):not([disabled="true"]):not([checked="true"]):not([open="true"]):not(:active):hover {
+	background: var(--toolbarbutton-hover-background);
+	border-color: var(--toolbarbutton-hover-bordercolor);
+	box-shadow: var(--toolbarbutton-hover-boxshadow);
+	fill: #FFFFFF;
 }
 
 /*---- Mail folder tree ----*/
@@ -100,12 +106,12 @@ toolbarbutton:hover {
 	background: #474D5C !important;
 }
 #folderTree > treechildren::-moz-tree-image {
-	fill: white;
+	fill: #FFFFFF;
 	opacity: 1;
   }
 #folderTree > treechildren::-moz-tree-cell-text {
 	padding-inline-start: 3px;
-	color: white !important;
+	color: #FFFFFF !important;
 }
 */
 slider[orient="vertical"] {

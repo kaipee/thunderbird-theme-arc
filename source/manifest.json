@@ -1,7 +1,7 @@
 {
   "manifest_version":2,
   "name":"Arc Inspired",
-  "version":"0.4.6",
+  "version":"0.4.7",
   "description":"An Arc inspired theme for Thunderbird",
   "author":"kaipee",
   "homepage_url":"https://github.com/kaipee/thunderbird-theme-arc",
@@ -19,8 +19,8 @@
       "button_background_active": "#5294E2",
       "button_background_hover": "#5294E2",
 
-      "frame": "#383c4a",
-      "frame_inactive": "#313742",
+      "frame": "#2f343e",
+      "frame_inactive": "#2f343e",
 
       "icons": "",
       "icons_attention": "#5294E2",
