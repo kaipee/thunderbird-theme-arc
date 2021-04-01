@@ -100,6 +100,28 @@ toolbarbutton:hover {
 	fill: #FFFFFF;
 }
 
+/*---- Quick Filter bar ----*/
+:root[lwt-tree] #quick-filter-bar:-moz-lwtheme {
+	background-color: #EBEBEB;
+	color: rgb(92, 97, 108);
+}
+#quick-filter-bar toolbarbutton {
+	border: 1px solid rgb(0, 0, 0, 0.25);
+	transition: unset;
+	color: rgb(92, 97, 108);
+}
+#quick-filter-bar toolbarbutton:hover {
+	background-color: #5294E2;
+	border: 1px solid #5294E2;
+	color: #FFFFFF !important;
+	transition: unset;
+}
+.findbar-button:not([disabled="true"]):-moz-any([checked="true"], :hover:active), .toolbarbutton-1 > .toolbarbutton-menubutton-button:not([disabled="true"]):hover:active, .toolbarbutton-1[open="true"] > .toolbarbutton-menubutton-dropmarker:not([disabled="true"]), .toolbarbutton-1:not([type="menu-button"]):not([disabled="true"]):-moz-any([open="true"], [checked="true"], :hover:active) {
+	background: #5294E2;
+	box-shadow: var(--toolbarbutton-active-boxshadow);;
+	color: #FFFFFF !important;
+}
+
 /*---- Mail folder tree ----*/
 /*
 #folderTree {
